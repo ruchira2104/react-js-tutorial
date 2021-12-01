@@ -1,0 +1,42 @@
+.filterType{
+    width: 74%;
+    color: black;
+    margin-top: 3px;
+    background: transparent
+}
+
+.jobList{
+    width:100%;
+    padding:20px
+}
+.greyBackground{
+    background-color: #F4F4F4;
+    padding:16px
+}
+
+.slugName{
+    font-size: 19px;
+    color: grey;
+    margin-left: 5px;
+    margin-right: 7px;
+}
+
+.location{
+    font-size: 19px;
+    color: grey;
+    margin-left: 5px;
+    margin-right: 2px;
+}
+
+.buttonStyle{
+    border: 1px solid blue;
+    border-radius: 63px;
+    padding: 6px;
+    text-decoration: none;
+}
+
+.title{
+    font-size:25px;
+    color: black;
+    margin-bottom:20px
+}
