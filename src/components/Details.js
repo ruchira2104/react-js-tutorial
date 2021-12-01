@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 
+// to display details of a Job
 function Details() {
   const [details, setDetails] = useState([]);
   const [jobs, setJobs] = useState([]);

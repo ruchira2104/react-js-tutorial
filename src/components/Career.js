@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import "./component.css";
 import axios from "axios";
 
+// career page of a website
 function Career() {
   const [count, setCount] = useState(0);
   const [job, setJob] = useState([]);
@@ -31,6 +32,7 @@ function Career() {
     }
   };
 
+  // API calls to get filter data
   const getDepartmentData = async () => {
     await axios
       .get("https://demo.jobsoid.com/api/v1/departments")
